@@ -1,7 +1,7 @@
 #include "calculator.h"
-#include <sstream>      // Для std::istringstream
-#include <limits>       // Для std::numeric_limits
-#include <cmath>        // Для std::isinf, std::isnan
+#include <sstream>      
+#include <limits>       
+#include <cmath>        
 
 double AddOperation::calculate(double a, double b) const {
     return a + b;
