@@ -1,0 +1,4 @@
+C:/Users/Edmon/Desktop/SuperCalculatorProject/build/CMakeFiles/SuperCalculator.dir
+C:/Users/Edmon/Desktop/SuperCalculatorProject/build/CMakeFiles/edit_cache.dir
+C:/Users/Edmon/Desktop/SuperCalculatorProject/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Edmon/Desktop/SuperCalculatorProject/build/CMakeFiles/SuperCalculator_autogen.dir
