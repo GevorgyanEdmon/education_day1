@@ -2,7 +2,7 @@
 #define CALCULATOR_H
 
 #include <string>
-#include <stdexcept> // Для std::invalid_argument, std::overflow_error
+#include <stdexcept> 
 
 class Operation {
 public:
@@ -42,4 +42,4 @@ public:
     ParsedInput parseString(const std::string& input);
 };
 
-#endif // CALCULATOR_H
+#endif 
