@@ -17,7 +17,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     num1Edit = new QLineEdit();
     operatorEdit = new QLineEdit();
-    operatorEdit->setMaxLength(1); // Оператор - один символ
+    operatorEdit->setMaxLength(1); 
     num2Edit = new QLineEdit();
     
     formLayout->addRow("Первое число:", num1Edit);
@@ -34,13 +34,13 @@ MainWindow::MainWindow(QWidget *parent)
     
     connect(calculateButton, &QPushButton::clicked, this, &MainWindow::onCalculateClicked);
     
-    // Устанавливаем разумный минимальный размер окна
+    
     setMinimumSize(300, 200);
 }
 
 MainWindow::~MainWindow()
 {
-    // Qt автоматически удалит дочерние виджеты, если ui не используется
+    
 }
 
 void MainWindow::onCalculateClicked() {
