@@ -23,9 +23,9 @@ private slots:
     void onCalculateClicked();
 
 private:
-    Ui::MainWindow *ui; // Если используешь Qt Designer
+    Ui::MainWindow *ui; 
     
-    // Ручное создание элементов интерфейса
+    
     QLineEdit *num1Edit;
     QLineEdit *operatorEdit;
     QLineEdit *num2Edit;
@@ -34,4 +34,4 @@ private:
     
     Calculator m_calculator;
 };
-#endif // MAINWINDOW_H
+#endif 
